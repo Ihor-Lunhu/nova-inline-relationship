@@ -6,6 +6,8 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/kirschbaum-development/nova-inline-relationship.svg)](https://packagist.org/packages/kirschbaum-development/nova-inline-relationship)
 [![Actions Status](https://github.com/kirschbaum-development/nova-inline-relationship/workflows/CI/badge.svg)](https://github.com/kirschbaum-development/nova-inline-relationship/actions)
 
+This is fork from kirschbaum-development/nova-inline-relationship [GitHub](https://github.com/kirschbaum-development/nova-inline-relationship)
+
 Nova Inline Relationship allows you to manage (add/edit/update/delete/reorder) an object's relationships directly from the parent object's create/edit screens. By presenting relationships as inline properties you can provide content editors with a streamlined and efficient workflow for managing complex data.
 
 ## Requirements
@@ -17,7 +19,7 @@ This package requires Laravel Nova 4.0.
 You can install this package in a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require kirschbaum-development/nova-inline-relationship
+composer require igrik/nova-inline-relationship
 ```
 
 ## Usage
