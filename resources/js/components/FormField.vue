@@ -3,7 +3,7 @@
         :field="field"
         :errors="errors"
         :show-errors="false"
-        class="mx-0 md:py-5"
+        class="mx-0 md:py-5 px-8"
     >
       <template #value>
           <draggable
@@ -53,7 +53,7 @@ import RelationshipFormItem from './RelationshipFormItem.vue'
 
 
 export default {
-    
+
     components:{
         draggable,
         RelationshipFormItem
@@ -89,7 +89,7 @@ export default {
     computed: {
         valueAsArray: function (){
             return Array.isArray(this.items) ? this.items : [];
-        }, 
+        },
     },
 
     methods: {
